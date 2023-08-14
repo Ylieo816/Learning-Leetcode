@@ -26,9 +26,10 @@ class Solution:
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:        
         # best answer
-        c1, c2 = Counter(nums1), Counter(nums2)
-        incommonnum = c1 & c2
-        incommon = []
-        for i in incommonnum:
-            incommon = incommon + [i] * incommonnum[i]
-        return incommon
+        count1 = Counter(nums1) # time complexity = n
+        com = []
+        for num in nums2:
+            if num in count1 and count1[num] > 0:
+                com.append(num)
+                count1[num] -= 1
+        return com
