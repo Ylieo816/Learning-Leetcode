@@ -2,3 +2,6 @@
 
 # Given two integers x and y, return the Hamming distance between them.
 
+class Solution:
+    def hammingDistance(self, x: int, y: int) -> int:
+        return bin(x^y).count("1")
