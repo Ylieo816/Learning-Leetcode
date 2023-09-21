@@ -23,3 +23,18 @@ class Solution:
 
 # Optimization, replace the dp array with a set(), don't need to store False for a value that has not yet been obtained.
 
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        total = sum(nums)
+        if total % 2 != 0:
+            return False
+
+        dp = set([0])
+        for num in nums:
+            for current in range(total // 2, num-1, -1):
+                if (current not in dp) and (current - num in dp):
+                    if current == (total // 2):
+                        return True
+                    dp.add(current)
+
+        return False
