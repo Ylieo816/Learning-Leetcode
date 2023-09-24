@@ -14,7 +14,7 @@ class Solution:
                     continue
                 path.append(value)
                 visited[idx] = True
-                DFS(path, visited)  # run next char
+                DFS(path, visited)  # run next charvi
                 #  next round
                 path.pop()
                 visited[idx] = False
