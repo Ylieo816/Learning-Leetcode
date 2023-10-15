@@ -1,7 +1,7 @@
 Record for Leetcode practice based on C++/Python
 Topic
 - Top Interview Questions - [Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/) (48) - [2023/08/09 - 2023/08/28]
-- Blind 75 LeetCode Questions (75)
+- Blind 75 LeetCode Questions (75) - [2023/08/29 - 2023/10/15]
 - Top Interview Questions - [Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/) (52)
 - [Dynamic Programming](https://leetcode.com/explore/featured/card/dynamic-programming/) (55)
 - [Recursion I](https://leetcode.com/explore/featured/card/recursion-i/) (21)
