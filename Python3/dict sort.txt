@@ -1,0 +1,8 @@
+list: .sort() 返回的是对已经存在的原始列表进行操作，无返回值
+sorted 可以对所有, 返回的是一个新的 list
+
+
+
+Sort by dict value：
+sorted(dict.items(), key = lambda item:item[1], reverse = True)
+

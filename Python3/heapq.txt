@@ -1,0 +1,8 @@
+heapq: (heap queue/priority queue)
+一顆二元樹，樹上最小的元素永遠會在根節點 heap[0] 上
+
+heapq.heappush(heap, item)
+
+heapq.heappop(heap): 從 heap 取出並回傳最小的元素
+
+heapq.heappushpop(heap, item): 將 item 放入 heap ，接著從 heap 取出並回傳最小的元素
