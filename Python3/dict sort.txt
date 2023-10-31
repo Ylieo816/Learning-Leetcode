@@ -6,3 +6,5 @@ sorted 可以对所有, 返回的是一个新的 list
 Sort by dict value：
 sorted(dict.items(), key = lambda item:item[1], reverse = True)
 
+Sort list by sublist first element, e.g. [[1,3], [3,5]...]
+intervals.sort(key=lambda x: x[0])
