@@ -1,6 +1,6 @@
 # Given two integers a and b, return the sum of the two integers without using the operators + and -.
 
-
+# Concept
 # The adder is just an XOR + AND
 # e.g. 5 plus 6:
 # 101 and 110 become 011 if the carry is ignored, which is equivalent to 101 XOR 110
