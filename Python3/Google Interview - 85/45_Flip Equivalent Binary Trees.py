@@ -16,7 +16,7 @@
 # Space Complexity: O(min(H1,H2)), where H1,H are the heights of the trees of root1 and root2
 class Solution:
     def flipEquiv(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
-        if root1 is root2:
+        if root1 is root2: # is: determine whether the "memory addresses" between two variables are the same.
             return True
         if not root1 or not root2 or root1.val != root2.val:
             return False
