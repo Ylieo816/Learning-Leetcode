@@ -4,28 +4,28 @@ T T T T T F F F or F F F F T T T T
     We always try to go the left when finding the First True and the template will be like :
     
     while left < right :
-	if condition is true:
-		right = mid 
-	else:
-		left = mid +1
+		if condition is true:
+			right = mid 
+		else:
+			left = mid +1
 
 2. Find the Last True:
     while left < right :
-	if condition is true:
-		left = mid 
-	else:
-		right = mid - 1
+		if condition is true:
+			left = mid 
+		else:
+			right = mid - 1
 
 3. Find the First False:
     while left < right:
-	if condition is False: 
-		left = mid +1
-	else:
-		right = mid
+		if condition is False: 
+			left = mid +1
+		else:
+			right = mid
 
 4. Find the Last False:
     while left < right:
-	if condition is False: 
-		right  = mid -1
-	else:
-		left = mid
+		if condition is False: 
+			right  = mid -1
+		else:
+			left = mid
