@@ -11,9 +11,9 @@ Review - 1 round [2023/11/11 - 2023/11/17]
 
 - [Code Preparson](https://leetcode.com/explore/interview/card/cheatsheets/) [2023/12/22 - 2023/12/24]
 - [Google Interview](https://leetcode.com/explore/interview/card/google/) (85) [2023/12/25 - 2024/01/20]
-- [Amazon Interview](https://leetcode.com/explore/interview/card/amazon/) (68) [2024/01/21 - 2024/02/07]
+- [Amazon Interview](https://leetcode.com/explore/interview/card/amazon/) (68) [2024/01/21 - 2024/02/20]
 
-Review - 2 round [2024/02/08 - 2024/02/20]
+Review - 2 round [2024/02/21 - 2024/02/28]
 
 - [Microsoft Interview](https://leetcode.com/explore/interview/card/microsoft/) (58) [2024/02/21 - 2024/03/05]
 - [Facebook Interview](https://leetcode.com/explore/interview/card/facebook/) (79) [2024/03/06 - 2024/03/31]
